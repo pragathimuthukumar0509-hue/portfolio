@@ -7,27 +7,59 @@
     color: rgb(180, 177, 177);
     text-decoration: none;
 }
-.nav{
-    position:relative;
-    left: 1000px;
-    bottom: 50px;
+.nav {
     display: flex;
-    gap: 14px;
-    font-size: 23px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    gap: 42px;
 }
-.header{
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- position: relative;
- top: 20px;
- left: 70px;
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
 }
-.home{
-     color: rgb(180, 177, 177);
-     font-size: 20px;
+
+.nav a:hover {
+    color: #00d9ff;
+}
+
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105px;
+    background-color: #151a21;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 10%;
+    box-sizing: border-box;
+
+    z-index: 1000;
+}
+.header {
+    color: #00d9ff;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+
+.hom{
+     color:#F4A261;
+     font-size: 40px;
      position: relative;
-     top: 10px;
+     top: 100px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-transform: uppercase;
 }
 .mern{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -37,47 +69,49 @@
 }
 .turn{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     gap: 20px;
     position: relative;
-    left: 140px;
+    left: 110px;
     top: 30px;
 }
 .react{
     position: relative;
     left: 2px;
-    top: 70px;
+    top: 50px;
     display: flex;
     gap: 25px;
-    
-    
+     
 }
+
+
 .box{
     position: relative;
     top: 50px;
 }
 .my{
-   border-radius: 5px; 
+   border-radius: 5px;
    font-size: 20px;
    padding-bottom: 5px;
        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       color: black; 
+       color: black;
        background-color: khaki;
        position: relative;
-       top: 90px;
+       top: 130px;
        left: 270px;
 }
 
+
 .box{
-    width: 650px;
-    height: 280px;
+    width: 700px;
+    height: 500px;
     position: relative;
     right: 5px;
     left: 50px;
     border-radius: 20px;
+    top: 80px;
 }
-
 
 .down{
     position: relative;
@@ -86,14 +120,15 @@
 .box:hover{
     box-shadow: 0 5px 15px gray;
     padding: 20px;  
-    
+   
 }
 .about{
-     color: rgb(180, 177, 177);
-     font-size: 20px;
+     color:#F4A261;
+     font-size: 40px;
      position: relative;
-     top: 10px;
+     top: 120px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-transform: uppercase;
 }
 .profile{
     position: relative;
@@ -108,6 +143,7 @@
     top: 10px;
     text-align: center;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 
 }
 .user{
@@ -126,6 +162,9 @@
     height: 400px;
     position: relative;
     left: 280px;
+    top: 150px;
+    border-radius: 30px;
+
 
 }
 .light:hover{
@@ -133,17 +172,20 @@
     padding: 20px;
 }
 .skill{
-    color: rgb(180, 177, 177);
-     font-size: 20px;
+    color: #F4A261;
+     font-size: 40px;
      position: relative;
-     top: 30px;
+     top: 160px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-transform: uppercase;
 }
 .what{
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       position: relative;
-      top: 40px;
+      top: 170px;
+      font-size: 50px;
 }
+
 
 .end{
     background-color:  rgb(10, 10, 82);
@@ -152,7 +194,7 @@
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    top: 40px; 
+    top: 170px;
       border: 2px solid rgb(80, 221, 28);
       border-radius: 10px;
 }
@@ -166,12 +208,13 @@
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    top: 90px; 
+    top: 230px;
       border: 2px solid rgb(229, 84, 11);
       border-radius: 10px;
 }
 .backend:hover{
      transform: translateX(40px);}
+
 
 .database{
      background-color:  rgb(10, 10, 82);
@@ -180,12 +223,13 @@
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    top: 150px; 
+    top: 270px;
       border: 2px solid rgb(158, 5, 122);
       border-radius: 10px;
 }
 .database:hover{
      transform: translateX(40px);}
+
 
 .tools{
     background-color:  rgb(10, 10, 82);
@@ -194,7 +238,7 @@
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    top: 200px; 
+    top: 320px;
       border: 2px solid rgb(208, 238, 17);
       border-radius: 10px;
 }
@@ -203,16 +247,18 @@
 }
 .proje{
     position: relative;
-    top: 140px;
-     color: rgb(180, 177, 177);
-     font-size: 20px;
+    top: 200px;
+     color: #F4A261;
+     font-size: 40px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+      text-transform: uppercase;
+   
 }
 .Featured{
     position: relative;
-    top: 150px;
+    top: 220px;
     font-size: 50px;
+    text-transform:uppercase;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .border{
@@ -220,7 +266,7 @@
     height: 500px;
     border: 2px solid rgb(243, 170, 182);
     position: relative;
-    top: 180px;
+    top: 230px;
     border-radius: 10px;
 }
 .footer{
@@ -245,7 +291,7 @@
 .design{
    font-size: 30px;
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center; 
+    text-align: center;
 }
 .size{
     line-height: 40px;
@@ -253,5 +299,457 @@
 
 
 }
+.edu{
+    position: relative;
+    top:240px;
+}
+.cation{
+    color: #F4A261;
+     font-size: 40px;
+     position: relative;
+     top: 10px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.academic{
+    font-size:50px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.college{
+    border :2px solid  rgb(233, 10, 233);
+    width:400px;
+    position :relative;
+    left:100px;
+    padding: 30px;
+    border-radius:20px;
+    background-color:rgb(3, 3, 87)
+}
+.degree{
+   font-size: 30px;
+   text-align:center;
+   text-transform:uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    bottom:10px;
+}
+.ngp{
+    font-size:20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
+}
+.percentage{
+    text-transform:uppercase;
+    font-size:20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.year{
+    font-size:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.college:hover{
+        box-shadow: 0 5px 15px rgb(128, 12, 173);
+    padding: 30px;
+}
+.school{
+    border :2px solid  rgb(22, 241, 132);
+    width:400px;
+    height: 240px;
+    position :relative;
+    left:700px;
+    bottom: 310px;
+    padding: 30px;
+    border-radius:20px;
+    background-color:rgb(3, 3, 87)
+}
+.hsc{
+    font-size:30px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align:center;
+     position : relative;
+     bottom:10px;
+}
+.prg{
+    font-size:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+.per{
+   text-transform:uppercase;
+    font-size:20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.school:hover{
+        box-shadow: 0 5px 15px rgb(22, 201, 16);
+    padding: 30px;
+}
+.contact{
+     color: #F4A261;
+     font-size: 40px;
+     position: relative;
+     bottom: 500px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-transform: uppercase;
+
+}
+.great{
+    font-size:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position :relative;
+    bottom:500px;
+}
+.vella{
+    color: rgb(180, 177, 177);
+    text-decoration: none;
+    position: relative;
+    bottom:240px;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+.index{
+    color: rgb(180, 177, 177);
+    font-size: 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-decoration: none;
+     position: relative;
+     left: 290px;
+     border: 2px solid rgb(240, 6, 6);
+     width: 5px;
+     padding: 5px;
+     border-radius: 40px;
+
+}
+.index:hover{
+    box-shadow: 0 5px 15px rgb(223, 10, 10);
+    padding: 10px;  }
+
+.linkedin{
+    position: relative;
+    bottom: 235px;
+    left:100px ;
+    text-decoration: none;
+    color: rgb(142, 150, 150);
+}
+.github{
+       position: relative;
+    bottom: 238px;
+    left: 50px;
+    text-decoration: none;
+    color: rgb(142, 150, 150);
+}
+.giticon{
+    position: relative;
+    bottom: 257px;
+    left: 60px;
+}
+.linkedinicon{
+    position: relative;
+    bottom: 257px;
+    left: 110px;
+}
+.emailicon{
+    position: relative;
+    bottom: 257px;
+    left: 10px;
+}
+.IM{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* HEADER */
+    .fixed {
+        position: fixed;
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .header {
+        font-size: 28px;
+    }
+
+    /* NAVIGATION */
+    .nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 15px;
+    }
+
+    .nav a {
+        font-size: 15px;
+    }
+
+
+    /* HOME */
+    .hom {
+        position: relative;
+        top: 130px;
+        left: 15px;
+        font-size: 30px;
+    }
+
+    .box {
+        width: 90%;
+        height: auto;
+        left: 0;
+        right: 0;
+        top: 120px;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .IM {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .mern {
+        font-size: 20px;
+    }
+
+    .turn {
+        position: relative;
+        left: 0;
+        top: 20px;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .react {
+        position: relative;
+        left: 0;
+        top: 30px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .my {
+        position: relative;
+        top: 150px;
+        left: 0;
+        display: block;
+        margin: auto;
+    }
+
+
+    /* ABOUT */
+    .down {
+        top: 250px;
+    }
+
+    .about {
+        top: 50px;
+        left: 15px;
+        font-size: 30px;
+    }
+
+    .light {
+        width: 90%;
+        height: auto;
+        left: 0;
+        top: 80px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .profile {
+        right: 0;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .web {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .user {
+        width: 100%;
+        left: 0;
+        font-size: 17px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+
+    /* SKILLS */
+    .skill {
+        top: 120px;
+        left: 15px;
+        font-size: 30px;
+    }
+
+    .what {
+        top: 130px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .end,
+    .backend,
+    .database,
+    .tools {
+        width: 90%;
+        height: auto;
+        min-height: 120px;
+        left: 0;
+        top: 150px;
+        margin: 0 auto 25px auto;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+
+    /* PROJECT */
+    .proje {
+        top: 180px;
+        left: 15px;
+        font-size: 30px;
+    }
+
+    .Featured {
+        top: 190px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .border {
+        width: 90%;
+        height: auto;
+        min-height: 400px;
+        top: 200px;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .chase {
+        font-size: 30px;
+    }
+
+    .page,
+    .design {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .size {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .index {
+        left: 0;
+        width: auto;
+    }
+
+
+    /* EDUCATION */
+    .edu {
+        top: 250px;
+    }
+
+    .cation {
+        left: 15px;
+        font-size: 30px;
+    }
+
+    .academic {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .college {
+        width: 90%;
+        left: 0;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .school {
+        width: 90%;
+        left: 0;
+        bottom: 0;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .degree,
+    .hsc {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .ngp,
+    .prg,
+    .year,
+    .percentage,
+    .per {
+        font-size: 17px;
+    }
+
+
+    /* CONTACT */
+    .footer {
+        top: 300px;
+    }
+
+    .contact {
+        position: relative;
+        bottom: 0;
+        left: 15px;
+        font-size: 30px;
+    }
+
+    .great {
+        position: relative;
+        bottom: 0;
+        font-size: 23px;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .vella {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        font-size: 16px;
+    }
+
+    .emailicon,
+    .giticon,
+    .linkedinicon,
+    .github,
+    .linkedin {
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+}
